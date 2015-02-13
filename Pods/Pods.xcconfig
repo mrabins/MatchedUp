@@ -1,0 +1,6 @@
+FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/Parse"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Bolts" "${PODS_ROOT}/Headers/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/JSMessagesViewController" "${PODS_ROOT}/Headers/JSQSystemSoundPlayer" "${PODS_ROOT}/Headers/Mixpanel" "${PODS_ROOT}/Headers/Parse"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/Bolts" -isystem "${PODS_ROOT}/Headers/Facebook-iOS-SDK" -isystem "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" -isystem "${PODS_ROOT}/Headers/JSMessagesViewController" -isystem "${PODS_ROOT}/Headers/JSQSystemSoundPlayer" -isystem "${PODS_ROOT}/Headers/Mixpanel" -isystem "${PODS_ROOT}/Headers/Parse"
+OTHER_LDFLAGS = -ObjC -licucore -framework Accelerate -framework Accounts -framework AudioToolbox -framework CFNetwork -framework CoreGraphics -framework CoreLocation -framework CoreTelephony -framework Foundation -framework MobileCoreServices -framework Parse -framework QuartzCore -framework Security -framework Social -framework StoreKit -framework SystemConfiguration -framework UIKit
+PODS_ROOT = ${SRCROOT}/Pods
