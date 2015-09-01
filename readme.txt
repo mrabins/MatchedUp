@@ -1,1 +1,1 @@
-Tinder clone -using Parse and integrated with Mixpanel 
+Tinder clone - using Parse as a backend with Mixpanel analytics  
